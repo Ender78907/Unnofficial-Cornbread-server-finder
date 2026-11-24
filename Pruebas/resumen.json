@@ -1,0 +1,16 @@
+[
+  {
+    "Minecraft": "26.2",
+    "Tests": 61,
+    "Failures": 0,
+    "Errors": 0,
+    "Skipped": 0
+  },
+  {
+    "Minecraft": "26.3",
+    "Tests": 61,
+    "Failures": 0,
+    "Errors": 0,
+    "Skipped": 0
+  }
+]

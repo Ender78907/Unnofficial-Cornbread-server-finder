@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ar.santi.cornbread.core.JoinAttemptTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-11-02T22:20:55.739Z" hostname="RYZEN-9" time="0.251">
+  <properties/>
+  <testcase name="disabledByDefaultAndOldConfigurationStillLoads()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.009"/>
+  <testcase name="whitelistOptionAloneDoesNotEnableRetry()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.007"/>
+  <testcase name="[1] Timed out" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.023"/>
+  <testcase name="[2] Connection refused" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.009"/>
+  <testcase name="[3] Unknown custom payload moonlight:map_marker" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.01"/>
+  <testcase name="unrelatedFailureCannotConsumeTheActiveAttempt()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.012"/>
+  <testcase name="failedAutoJoinRetriesButDoesNotBlockBeforeCountdown()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.012"/>
+  <testcase name="newManualAttemptDoesNotInheritAutomaticMode()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.012"/>
+  <testcase name="translatedWhitelistKeyProtectsUnrecognizedLanguage()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.009"/>
+  <testcase name="attemptKeepsItsOwnServerSnapshot()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.008"/>
+  <testcase name="repeatedScreenInitializationDoesNotRepeatFailure()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.007"/>
+  <testcase name="manualJoinDoesNotRetryEvenWithBothOptionsEnabled()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.008"/>
+  <testcase name="optionsSurviveRestart()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.007"/>
+  <testcase name="[1] You are not white-listed on this server!" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.01"/>
+  <testcase name="[2] Not whitelisted" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.009"/>
+  <testcase name="[3] Whitelist required" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.008"/>
+  <testcase name="[4] Not on the allow list" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.008"/>
+  <testcase name="[5] §cNo estás en la lista blanca" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.008"/>
+  <testcase name="[6] No estás en la lista de permitidos" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.009"/>
+  <testcase name="[7] No estás en la lista de admitidos" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.011"/>
+  <testcase name="cancellationOrCompletedJoinDisarmsRecovery()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.008"/>
+  <testcase name="optInAllowsWhitelistRejection()" classname="ar.santi.cornbread.core.JoinAttemptTest" time="0.008"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

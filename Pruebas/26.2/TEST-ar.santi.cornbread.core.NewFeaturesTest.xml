@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ar.santi.cornbread.core.NewFeaturesTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2026-11-02T22:20:56.114Z" hostname="RYZEN-9" time="0.081">
+  <properties/>
+  <testcase name="maximumIsInclusiveAndCanBeUnlimited()" classname="ar.santi.cornbread.core.NewFeaturesTest" time="0.005"/>
+  <testcase name="refreshPreservesPlayerHistoryWithoutAddingVisits()" classname="ar.santi.cornbread.core.NewFeaturesTest" time="0.011"/>
+  <testcase name="cancellationStopsTimeoutRetries()" classname="ar.santi.cornbread.core.NewFeaturesTest" time="0.009"/>
+  <testcase name="oldConfigurationDefaultsToNoMaximum()" classname="ar.santi.cornbread.core.NewFeaturesTest" time="0.008"/>
+  <testcase name="historyDatesMalformedRecordsAndDeduplication()" classname="ar.santi.cornbread.core.NewFeaturesTest" time="0.005"/>
+  <testcase name="moreResultsContinuesPastFortyRejectedCandidates()" classname="ar.santi.cornbread.core.NewFeaturesTest" time="0.006"/>
+  <testcase name="onlyBounded64PixelPngHeadersAccepted()" classname="ar.santi.cornbread.core.NewFeaturesTest" time="0.009"/>
+  <testcase name="excludedAndDuplicateServersDoNotCountAndEmptyPageStops()" classname="ar.santi.cornbread.core.NewFeaturesTest" time="0.01"/>
+  <testcase name="retriesTimedOutPageWithoutDroppingAlreadyFound()" classname="ar.santi.cornbread.core.NewFeaturesTest" time="0.012"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

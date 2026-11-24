@@ -1,0 +1,1 @@
+{"required": true, "package": "ar.santi.cornbread.mixin", "compatibilityLevel": "JAVA_25", "client": ["MultiplayerMixin", "DisconnectedMixin", "ConnectMixin", "PauseMixin"], "injectors": {"defaultRequire": 1}}

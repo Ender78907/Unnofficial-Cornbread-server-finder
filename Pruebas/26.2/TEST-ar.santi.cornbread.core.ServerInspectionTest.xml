@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ar.santi.cornbread.core.ServerInspectionTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-02T22:20:56.198Z" hostname="RYZEN-9" time="0.006">
+  <properties/>
+  <testcase name="malformedOptionalFieldsDoNotCrash()" classname="ar.santi.cornbread.core.ServerInspectionTest" time="0.002"/>
+  <testcase name="fabricAndProxyHintsAreRecognized()" classname="ar.santi.cornbread.core.ServerInspectionTest" time="0.0"/>
+  <testcase name="paperIsOnlyAVersionTextHint()" classname="ar.santi.cornbread.core.ServerInspectionTest" time="0.0"/>
+  <testcase name="missingFieldsRemainUnknown()" classname="ar.santi.cornbread.core.ServerInspectionTest" time="0.0"/>
+  <testcase name="forgeAndNeoForgeAdvertisedModsAreParsed()" classname="ar.santi.cornbread.core.ServerInspectionTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

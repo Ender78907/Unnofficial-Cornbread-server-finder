@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ar.santi.cornbread.core.ConnectionHistoryTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-11-02T22:20:55.946Z" hostname="RYZEN-9" time="0.78">
+  <properties/>
+  <testcase name="failuresPersistSeparatelyAndSuccessDoesNotEraseThem()" classname="ar.santi.cornbread.core.ConnectionHistoryTest" time="0.137"/>
+  <testcase name="firstVerifiedMatchCanCancelSlowChecksImmediately()" classname="ar.santi.cornbread.core.ConnectionHistoryTest" time="0.01"/>
+  <testcase name="failureHistoryIsBoundedAndOldConfigLoads()" classname="ar.santi.cornbread.core.ConnectionHistoryTest" time="0.573"/>
+  <testcase name="savedResultSnapshotAndCheckTimeSurviveRestart()" classname="ar.santi.cornbread.core.ConnectionHistoryTest" time="0.014"/>
+  <testcase name="failuresRespectBlocksAndPortsAndDoNotCreateLegacyCounts()" classname="ar.santi.cornbread.core.ConnectionHistoryTest" time="0.017"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

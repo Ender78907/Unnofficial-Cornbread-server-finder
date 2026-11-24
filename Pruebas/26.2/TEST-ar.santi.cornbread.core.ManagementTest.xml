@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ar.santi.cornbread.core.ManagementTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2026-11-02T22:20:56.034Z" hostname="RYZEN-9" time="0.079">
+  <properties/>
+  <testcase name="compactPreferenceAndBlocksAreNotEvictedByHistoryLimit()" classname="ar.santi.cornbread.core.ManagementTest" time="0.021"/>
+  <testcase name="fastRepliesArePublishedBeforeSlowPeersAndBlocksAreNeverPinged()" classname="ar.santi.cornbread.core.ManagementTest" time="0.013"/>
+  <testcase name="blockSurvivesRestartAndUnblockRestoresHistoryAndCounts()" classname="ar.santi.cornbread.core.ManagementTest" time="0.016"/>
+  <testcase name="legacyHistoryGetsHonestMinimumAndMigrationRunsOnce()" classname="ar.santi.cornbread.core.ManagementTest" time="0.008"/>
+  <testcase name="rediscoveryDoesNotUnblockOrResetCountersAndPortsAreIndependent()" classname="ar.santi.cornbread.core.ManagementTest" time="0.014"/>
+  <testcase name="cancellationStopsFurtherResultDelivery()" classname="ar.santi.cornbread.core.ManagementTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

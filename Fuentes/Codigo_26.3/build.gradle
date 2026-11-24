@@ -1,0 +1,29 @@
+plugins {
+ id 'net.fabricmc.fabric-loom' version "${loom_version}"
+}
+loom {
+ splitEnvironmentSourceSets()
+ mods { cornbread_finder { sourceSet sourceSets.main; sourceSet sourceSets.client } }
+}
+dependencies {
+ minecraft "com.mojang:minecraft:${project.minecraft_version}"
+ implementation "net.fabricmc:fabric-loader:${project.loader_version}"
+ implementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_api_version}"
+ testImplementation 'org.junit.jupiter:junit-jupiter:5.12.2'
+ testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+def modVersion = project.version.toString()
+processResources {
+ inputs.property 'version', modVersion
+ filesMatching('fabric.mod.json') { expand 'version': modVersion }
+}
+java { sourceCompatibility = JavaVersion.VERSION_25; targetCompatibility = JavaVersion.VERSION_25; withSourcesJar() }
+tasks.withType(JavaCompile).configureEach { options.release = 25; options.encoding = 'UTF-8' }
+test {
+ useJUnitPlatform()
+ // Keep temporary test files with the build, including atomic-save checks on Windows.
+ def testTemp = layout.buildDirectory.dir('tmp/test-files').get().asFile
+ systemProperty 'java.io.tmpdir', testTemp.absolutePath
+ doFirst { testTemp.mkdirs() }
+}
+
